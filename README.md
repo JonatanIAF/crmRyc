@@ -4,7 +4,7 @@
 ![Product Gif](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/paper-dashboard-angular.gif)
 
 Hola, este es el CRM de Grupo Ryc, un gusto poder colaborar.
- **Example Pages** We wanted to fully display the power of this dashboard, so the kit comes packed with examples showing you how to use the components.
+
 
 ## Quick start
 
