@@ -9,12 +9,12 @@ export interface RouteInfo {
 }
 
 export const ROUTES: RouteInfo[] = [
-    { path: '/dashboard',     title: 'Dashboard',         icon:'nc-bank',       class: '' },
-    // { path: '/icons',         title: 'Icons',             icon:'nc-diamond',    class: '' },
+    { path: '/dashboard',     title: 'Dashboard',         icon:'nc-zoom-split',       class: '' },
     { path: '/notifications', title: 'PDF',     icon:'nc-bell-55',    class: '' },
-    { path: '/user',          title: 'Datos generales',      icon:'nc-single-02',  class: '' },
+    { path: '/user',          title: 'Datos generales',      icon:'nc-badge',  class: '' },
     { path: '/solicitud-inscripcion', title: 'Formato de Inscripcion',icon:'nc-tile-56',class: '' },
-    {path: '/solicitud-aceptacion', title: 'Formato de Aceptacion', icon:'nc-tile-56', class: ''}
+    {path: '/solicitud-aceptacion', title: 'Formato de Aceptacion', icon:'nc-bullet-list-67', class: ''},
+    {path: '/acuse', title: 'Acuse de entrega', icon:'nc-single-copy-04', class: ''}
 ];
 
 @Component({
