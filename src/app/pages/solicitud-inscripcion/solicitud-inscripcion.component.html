@@ -1,59 +1,58 @@
-
 <div class="row">
-    <div class="col-md-12">
-      <div class="card ">
-        <div class="card-header ">
-          <h5 class="card-title">Datos de la vivienda destino del crédito</h5>
-          <p style="text-transform:none" class="card-category">Rellene el siguiente formato</p>
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <h5 class="card-title">Datos de la vivienda destino del crédito</h5>
+        <p style="text-transform:none" class="card-category">Rellene el siguiente formato</p>
+      </div>
+    <div class="card-body">
+    <form class="pr-5 mb-5" method="post" id="contactFormInscripcion" name="contactForm">
+      <div class="row">
+        <div class="col-md-6 form-group">
+          <input type="text" class="form-control" name="calle" id="fname1" placeholder="Calle">
         </div>
-        <div class="card-body ">
-          <form class="pr-5 mb-5" method="post" id="contactFormInscripcion" name="contactForm">
-            <div class="row">
-              <div class="col-md-6 form-group">
-                <input type="text" class="form-control" name="calle" id="fname1" placeholder="Calle">
-              </div>
-              <div class="col-md-6 form-group">
-                <input type="number" class="form-control" name="numeroext" id="lname2" placeholder="Numero exterior">
-              </div>
-              <div class="col-md-6 form-group">
-                <input type="number" class="form-control" name="numeroint" id="lname3" placeholder="Numero interior">
-              </div>
-              <div class="col-md-6 form-group">
-                <input type="text" class="form-control" name="lote" id="lname4" placeholder="Lote">
-              </div>
-              <div class="col-md-6 form-group">
-                <input type="text" class="form-control" name="mza" id="lname5" placeholder="Mza.">
-              </div>
-              <div class="col-md-6 form-group">
-                <input type="text" class="form-control" name="colonia" id="lname6" placeholder="Colonia o fraccionamiento">
-              </div>
-              <div class="col-md-6 form-group">
-                <input type="text" class="form-control" name="entidad" id="lname7" placeholder="Entidad">
-              </div>
-              <div class="col-md-6 form-group">
-                <input type="text" class="form-control" name="municipio" id="lname8" placeholder="Municipio o Delegación">
-              </div>
-              <div class="col-md-6 form-group">
-                <input type="number" class="form-control" name="cp" id="lname9" placeholder="Codigo postal">
-              </div>
+        <div class="col-md-6 form-group">
+          <input type="number" class="form-control" name="numeroext" id="lname2" placeholder="Numero exterior">
+        </div>
+        <div class="col-md-6 form-group">
+          <input type="number" class="form-control" name="numeroint" id="lname3" placeholder="Numero interior">
+        </div>
+        <div class="col-md-6 form-group">
+          <input type="text" class="form-control" name="lote" id="lname4" placeholder="Lote">
+        </div>
+        <div class="col-md-6 form-group">
+          <input type="text" class="form-control" name="mza" id="lname5" placeholder="Mza.">
+        </div>
+        <div class="col-md-6 form-group">
+          <input type="text" class="form-control" name="colonia" id="lname6" placeholder="Colonia o fraccionamiento">
+        </div>
+        <div class="col-md-6 form-group">
+          <input type="text" class="form-control" name="entidad" id="lname7" placeholder="Entidad">
+        </div>
+        <div class="col-md-6 form-group">
+          <input type="text" class="form-control" name="municipio" id="lname8" placeholder="Municipio o Delegación">
+        </div>
+        <div class="col-md-6 form-group">
+          <input type="number" class="form-control" name="cp" id="lname9" placeholder="Codigo postal">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 form-group">
+          <label for="">¿La vivienda elegida es para una persona con discapacidad? </label> <br>
+          <div class="form-check-inline col-md-6 form-group">
+            <input class="" type="checkbox" id="inlineCheckbox1" value="si">&nbsp;
+              <label class="form-check-label" for="inlineCheckbox1"> Si</label>
             </div>
-            <div class="row">
-              <div class="col-md-6 form-group">
-                <label for="">¿La vivienda elegida es para una persona con discapacidad? </label> <br>
-                <div class="form-check-inline col-md-6 form-group">
-                  <input class="" type="checkbox" id="inlineCheckbox1" value="si">&nbsp;
-                  <label class="form-check-label" for="inlineCheckbox1"> Si</label>
-                </div>
-                <div class=" form-check-inline col-md-6 form-group">
-                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="no">
-                  <label class="form-check-label" for="inlineCheckbox2">No</label>
-                </div>
-              </div>
-              <div class="col-md-6 form-group">
-                <label for="">Tipo de discapacidad </label> <br>
-                <div class="form-check-inline col-md-6 form-group">
-                  <input class="" type="checkbox" id="inlineCheckbox3" value="Motriz">&nbsp;
-                  <label class="form-check-label" for="inlineCheckbox3"> Motriz</label>
+            <div class=" form-check-inline col-md-6 form-group">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="no">
+              <label class="form-check-label" for="inlineCheckbox2">No</label>
+            </div>
+        </div>
+        <div class="col-md-6 form-group">
+          <label for="">Tipo de discapacidad </label> <br>
+          <div class="form-check-inline col-md-6 form-group">
+            <input class="" type="checkbox" id="inlineCheckbox3" value="Motriz">&nbsp;
+              <label class="form-check-label" for="inlineCheckbox3"> Motriz</label>
                 </div>
                 <div class=" form-check-inline col-md-6 form-group">
                   <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="Auditiva">
@@ -74,7 +73,7 @@
                 <label for="">Persona que presentará comprobante de discapacidad:</label> <br>
                 <div class="form-check-inline">
                   <input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="Derechohabiente">
-                  <label class="form-check-label" for="inlineCheckbox7">Derechohabiente </label>
+                  <label class="form-check-label" for="inlineCheckbox7">Derecho habiente </label>
                 </div>
                 <div class="form-check-inline col-md-6 form-group">
                   <input class="" type="checkbox" id="inlineCheckbox8" value="Conyuge">&nbsp;
@@ -113,7 +112,7 @@
               </div>
             </div>
             <div class="card-header">
-              <h5 class="card-title">Datos de Identificación del o de la derechohabiente / Los datos seran validados</h5>
+              <h5 class="card-title">Datos de Identificación del o de la derecho habiente / Los datos seran validados</h5>
             </div>
             <div class="row">
               <div class="col-md-6 form-group">
@@ -173,7 +172,7 @@
               </div>
             </div>
             <div class="card-header">
-              <h5 class="card-title">Referencias familiares del o de la derechohabiente / Los datos serán validados</h5>
+              <h5 class="card-title">Referencias familiares del o de la derecho habiente / Los datos serán validados</h5>
             </div>
             <label for="">Referencia 1</label>
             <div class="row">
